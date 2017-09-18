@@ -27,8 +27,5 @@ def MakeConnection(h,p):
 	except socket.error:
 		pass  # If any connection error happend , through exception
 
-
-
 while True:
 	MakeConnection(host,port) # Call the main fuction
-
