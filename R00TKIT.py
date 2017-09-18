@@ -28,4 +28,4 @@ def MakeConnection(h,p):
 		pass  # If any connection error happend , through exception
 
 while True:
-	MakeConnection(host,port) # Call the main fuction
+	MakeConnection(host,port) 
