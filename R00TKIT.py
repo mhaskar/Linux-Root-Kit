@@ -4,8 +4,6 @@
 Author : Mohammad Askar | @mohammadaskar2
 Description : Reverse shell rootkit
 """
-
-
 import os
 import socket
 import subprocess
